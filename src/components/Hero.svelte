@@ -331,7 +331,7 @@
       .hero-availability-mode {
         font-size: 12px;
         font-weight: 700;
-        color: #888;
+        color: #bbb; // Improved contrast: #bbb on #141619 = ~7:1 ratio
         white-space: nowrap;
       }
     }
@@ -472,6 +472,10 @@
             text-decoration-color: rgba(0, 0, 0, 0.3);
           }
         }
+      }
+
+      .hero-availability-mode {
+        color: #555; // Improved contrast: #555 on #fafafa = ~7:1 ratio
       }
 
       .hero-availability-separator {

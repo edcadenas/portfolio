@@ -1,10 +1,11 @@
 import { defineConfig } from "vite";
 import { svelte } from "@sveltejs/vite-plugin-svelte";
+import { headersPlugin } from "./vite-plugin-headers.js";
 
 // https://vite.dev/config/
 export default defineConfig({
   base: "/portfolio/",
-  plugins: [svelte()],
+  plugins: [svelte(), headersPlugin()],
   build: {
     // Optimize build output
     cssCodeSplit: true,
@@ -24,7 +25,10 @@ export default defineConfig({
     minify: "esbuild",
     // Chunk size warning limit
     chunkSizeWarningLimit: 1000,
+    // Copy .nojekyll to dist for GitHub Pages
+    copyPublicDir: true,
   },
+  publicDir: "public",
   // Optimize dependencies
   optimizeDeps: {
     include: ["svelte"],

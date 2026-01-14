@@ -3,7 +3,7 @@
 // Font faces with optimized loading
 /* lora-regular - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-display: fallback; /* Short block period, then swap, reduces critical path latency */
   font-family: "Lora";
   font-style: normal;
   font-weight: 400;
@@ -12,7 +12,7 @@
 
 /* lora-italic - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-display: fallback;
   font-family: "Lora";
   font-style: italic;
   font-weight: 400;
@@ -21,7 +21,7 @@
 
 /* lora-500 - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-display: fallback;
   font-family: "Lora";
   font-style: normal;
   font-weight: 500;
@@ -30,7 +30,7 @@
 
 /* lora-500italic - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-display: fallback;
   font-family: "Lora";
   font-style: italic;
   font-weight: 500;
@@ -39,7 +39,7 @@
 
 /* lora-600 - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-display: fallback;
   font-family: "Lora";
   font-style: normal;
   font-weight: 600;
@@ -48,7 +48,7 @@
 
 /* lora-600italic - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-display: fallback;
   font-family: "Lora";
   font-style: italic;
   font-weight: 600;
@@ -57,7 +57,7 @@
 
 /* lora-700 - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-display: fallback;
   font-family: "Lora";
   font-style: normal;
   font-weight: 700;
@@ -66,7 +66,7 @@
 
 /* lora-700italic - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-display: fallback;
   font-family: "Lora";
   font-style: italic;
   font-weight: 700;
@@ -75,7 +75,7 @@
 
 /* rubik-regular - latin */
 @font-face {
-  font-display: swap; // Prevents invisible text during font load
+  font-display: fallback; // Short block period, then swap, reduces critical path latency
   font-family: "Rubik";
   font-style: normal;
   font-weight: $font-weight-normal;

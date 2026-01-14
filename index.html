@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Portfolio website showcasing modern web development projects" />
     
-    <!-- Preload critical fonts -->
+    <!-- Preload critical fonts with higher priority -->
     <link
       rel="preload"
       href="/src/assets/fonts/rubik-v31-latin-regular.woff2"
@@ -14,16 +14,8 @@
       type="font/woff2"
       crossorigin="anonymous"
     />
-    <link
-      rel="preload"
-      href="/src/assets/fonts/lora-v37-latin-regular.woff2"
-      as="font"
-      type="font/woff2"
-      crossorigin="anonymous"
-    />
-    
-    <!-- DNS prefetch for external resources -->
-    <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+    <!-- Preconnect for font loading optimization -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
     
     <title>portfolio</title>
   </head>
