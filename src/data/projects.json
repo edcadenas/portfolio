@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Luminous",
+    "description": "E-commerce platform that enables brands to manage orders, inventory, purchasing, and shipping in a high-volume, multi-tenant environment.",
+    "isClientProject": true,
+    "contribution": "I built and optimized high-volume order workflows, creating queued processes that handle large item sets and complex operational logic.",
+    "contributionDetails": [
+      "Built and optimized full-stack workflows for high-volume order processing",
+      "Simplified complex workflows into faster inline and bulk actions",
+      "Improved performance by optimizing backend logic and reducing database operations"
+    ],
+    "techStack": [
+      "AngularJS",
+      "Laravel",
+      "MySQL",
+      "Docker",
+      "Bitbucket",
+      "Jira",
+      "Postman",
+      "Shopify",
+      "ShipStation",
+      "EDI",
+      "TrackStar"
+    ],
+    "imageUrl": "/images/luminous-logo.webp",
+    "link": "https://joinluminous.com/"
+  },
+  {
+    "name": "Dentalfast",
+    "description": "Web application that helps dental labs and clinics manage and track deliveries, making logistics simpler and more reliable.",
+    "isClientProject": true,
+    "contribution": "I built a complete web application from scratch, including the interface and backend systems.",
+    "contributionDetails": [
+      "Created features for tracking deliveries, managing schedules, and keeping everyone informed",
+      "Designed database structure with proper relationships and indexes as data grows",
+      "Implemented responsive design for computers, tablets, and phones",
+      "Built with scalability in mind from the start, ensuring system works well as usage increases"
+    ],
+    "techStack": ["ReactJS", "Laravel", "GitLab", "Postman", "Figma"],
+    "imageUrl": "/images/dentalfast-logo.webp"
+  }
+]
