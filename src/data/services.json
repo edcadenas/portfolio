@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Complete Web Applications",
+    "description": "I build complete websites and applications that work well whether you're just starting out or need to handle growth. From e-commerce platforms to delivery tracking systems, I build them to scale with your business.",
+    "tools": ["ReactJS", "Laravel", "TypeScript", "MySQL"]
+  },
+  {
+    "title": "Design & User Experience",
+    "description": "I design interfaces that are both beautiful and easy to use. I make complex systems feel simple so your customers can get things done without confusion.",
+    "tools": ["Figma", "TypeScript", "SCSS", "Adobe Creative Suite"]
+  },
+  {
+    "title": "Integrations & Data Handling",
+    "description": "I connect your website with other services and build features that handle data efficiently. I've worked with e-commerce and logistics platforms, and I know how to implement integrations that keep things running smoothly.",
+    "tools": ["Shopify", "ShipStation", "TrackStar", "EDI", "Stedi"]
+  }
+]

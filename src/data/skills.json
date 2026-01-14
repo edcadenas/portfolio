@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Frontend",
+    "skills": [
+      "ReactJS",
+      "Angular",
+      "Svelte",
+      "JavaScript",
+      "TypeScript",
+      "HTML5",
+      "CSS3",
+      "Tailwind",
+      "Bootstrap"
+    ]
+  },
+  {
+    "name": "Backend",
+    "skills": ["Laravel", "Node.js", "RESTful APIs", "MySQL", "PostgreSQL"]
+  },
+  {
+    "name": "Tools",
+    "skills": ["Git", "GitLab", "Docker", "Postman", "Bitbucket", "Jira"]
+  },
+  {
+    "name": "Design & UI",
+    "skills": ["Figma", "Adobe Creative Suite (Photoshop, Illustrator)"]
+  },
+  {
+    "name": "Integrations",
+    "skills": ["Shopify", "ShipStation", "TrackStar", "EDI", "Stedi"]
+  }
+]

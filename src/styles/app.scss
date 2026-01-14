@@ -1,0 +1,155 @@
+@use "variables" as *;
+@use "fonts";
+
+:root {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial,
+    sans-serif;
+  line-height: 1.5;
+  font-weight: $font-weight-normal;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  display: block;
+  background: $color-bg-primary;
+  color: $color-text-primary;
+  font-family: $font-family-primary;
+  transition: background-color $transition-base, color $transition-base;
+}
+
+html {
+  transition: background-color $transition-base;
+}
+
+:global(.light) {
+  body {
+    background-color: $color-bg-primary-light;
+    color: $color-text-primary-light;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: $color-text-primary-light;
+  }
+
+  p {
+    color: $color-text-secondary-light;
+  }
+
+  small,
+  .text-small {
+    color: $color-text-tertiary-light;
+  }
+
+  .text-medium {
+    color: $color-text-tertiary-light;
+  }
+}
+
+#app {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+// Base element styles
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+// Typography system
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: $font-weight-extrabold;
+  letter-spacing: $letter-spacing-tight;
+  line-height: $line-height-tight;
+  color: $color-text-primary;
+  transition: color $transition-base;
+}
+
+h1 {
+  font-size: clamp(44px, 5.8vw, 92px);
+}
+
+h2 {
+  font-size: clamp(40px, 5vw, 72px);
+}
+
+h3 {
+  font-size: clamp(28px, 3vw, 42px);
+  font-weight: $font-weight-bold;
+}
+
+h4 {
+  font-size: $font-size-lg;
+  font-weight: $font-weight-bold;
+}
+
+p {
+  margin: 0;
+  font-size: $font-size-base;
+  font-weight: $font-weight-normal;
+  line-height: $line-height-loose;
+  color: $color-text-secondary;
+  transition: color $transition-base;
+}
+
+small,
+.text-small {
+  font-size: $font-size-xs;
+  font-weight: $font-weight-normal;
+  color: $color-text-tertiary;
+  transition: color $transition-base;
+}
+
+.text-medium {
+  font-size: $font-size-md;
+  font-weight: $font-weight-normal;
+  line-height: $line-height-relaxed;
+  color: $color-text-tertiary;
+  transition: color $transition-base;
+}

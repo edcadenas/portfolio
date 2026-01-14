@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Software Engineer",
+    "company": "Luminous",
+    "start": "2022-01",
+    "end": null,
+    "isCurrent": true,
+    "description": "I maintain and enhance a production e-commerce platform supporting high-volume, multi-tenant order processing, delivering features, bug fixes, third-party integrations, and API performance optimizations through query refactoring.",
+    "skills": [
+      "Laravel",
+      "AngularJS",
+      "TypeScript",
+      "Docker",
+      "Git",
+      "Bitbucket",
+      "Postman",
+      "Jira",
+      "Shopify",
+      "ShipStation",
+      "EDI"
+    ],
+    "environment": "SaaS – Multi-tenant E-commerce Platform"
+  },
+  {
+    "title": "Web Developer",
+    "company": "Fligno Software Philippines",
+    "start": "2020-06",
+    "end": "2022-01",
+    "isCurrent": false,
+    "description": "I built various websites and applications ranging from delivery tracking systems to business websites. I balanced user experience with performance, working on both design and development.",
+    "skills": ["ReactJS", "Laravel", "Git", "GitLab", "Postman", "Figma"],
+    "environment": "Web Applications – Delivery, Portfolio & Payment Systems"
+  },
+  {
+    "title": "Co-founder, Designer",
+    "company": "Checkmate: Educator's Toolkit",
+    "start": "2018-04",
+    "end": "2022-12",
+    "isCurrent": false,
+    "description": "I co-founded an education-focused productivity platform, contributing primarily through design and user experience.",
+    "skills": ["Figma", "Adobe Creative Suite (Photoshop, Illustrator)", "CSS"],
+    "environment": "EdTech – Mobile Teacher Platform"
+  }
+]

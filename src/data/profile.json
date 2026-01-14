@@ -1,0 +1,66 @@
+{
+  "name": {
+    "first": "Ed",
+    "last": "Cadenas"
+  },
+  "headline": "Developer & designer.",
+  "header": {
+    "nav": [
+      { "label": "Services", "targetId": "services" },
+      { "label": "Projects", "targetId": "projects" },
+      { "label": "About", "targetId": "about" },
+      { "label": "Contact", "targetId": "contact" }
+    ]
+  },
+  "hero": {
+    "status": {
+      "enabled": true,
+      "label": "Available for work",
+      "unavailableLabel": "Not currently available",
+      "modes": [
+        { "label": "Full-time", "active": false },
+        { "label": "Part-time", "active": false },
+        { "label": "Project-based", "active": true }
+      ]
+    },
+    "headline": {
+      "text": "I build web applications that grow with your business.",
+      "accents": ["web applications", "grow", "business."]
+    },
+    "bio": [
+      "I build websites and apps that work whether you're processing a few transactions or thousands daily. From simple business sites to platforms that need to handle growth, I create solutions that stay fast and reliable."
+    ],
+    "cta": {
+      "label": "Let's Work",
+      "targetId": "contact"
+    }
+  },
+  "services": {
+    "title": "What I Do",
+    "label": "/Services",
+    "lede": "I build complete websites and applications — from simple business sites to platforms that need to handle growth. Every project gets attention to quality and speed."
+  },
+  "projects": {
+    "title": "Portfolio",
+    "label": "/Projects",
+    "lede": "A mix of projects from beautiful, easy-to-use websites to business platforms that need to handle growth. Each one solves real problems with simple, effective solutions."
+  },
+  "about": {
+    "kicker": "Me",
+    "headline": "I build web applications that scale, from startups to growing platforms.",
+    "body": "I've worked on everything from small business websites to e-commerce platforms that handle significant transaction volumes. What I've learned from building systems that need to scale, I apply to every project. I think about how your website will perform as it grows, not just whether it works today. I'm always learning and growing, eager to take on new challenges.",
+    "experienceLabel": "Experience"
+  },
+  "techStack": {
+    "title": "Tech Stack"
+  },
+  "contact": {
+    "kicker": "Let's Work",
+    "lede": "Have a project in mind? Let's talk about how I can help build a solution that grows with your business.",
+    "socialsLabel": "Socials",
+    "email": "edcadenas07@gmail.com"
+  },
+  "footer": {
+    "year": 2026
+  }
+}
